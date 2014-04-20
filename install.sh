@@ -1,10 +1,10 @@
 #!/bin/bash
 
-wget https://thoughtbot.github.io/rcm/dist/rcm-1.2.2.tar.gz && \
+wget --no-check-certificate https://thoughtbot.github.io/rcm/dist/rcm-1.2.2.tar.gz && \
 tar -xvf rcm-1.2.2.tar.gz && \
 cd rcm-1.2.2 && \
 
-./configure --prefix=~/bin && \
+./configure --prefix=/home/minweng/bin && \
 make && \
 make install
 

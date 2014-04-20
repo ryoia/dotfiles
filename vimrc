@@ -40,14 +40,8 @@ vnoremap < <gv
 vnoremap > >gv
 
 
-" Show whitespace
-" MUST be inserted BEFORE colorscheme
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
-au InsertLeave * match ExtraWhitespace /\s\+$/
-
-
 " put useful info in status bar
-set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
+" set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
 
 
 " Colors
@@ -103,7 +97,7 @@ set number
 set tw=79
 set nowrap
 set fo-=t
-set colorcolumn=80
+" set colorcolumn=80
 highlight ColorColumn ctermbg=233
 highlight LineNr ctermbg=233
 
