@@ -10,6 +10,6 @@ make install
 
 cd .. && rm -rf rcm-1.2.2
 
-git clone git://github.com/ryoia/dotfiles.git ~/.dotfiles
+#git clone git://github.com/ryoia/dotfiles.git ~/.dotfiles
 
 rcup -v
